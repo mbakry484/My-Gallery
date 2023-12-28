@@ -1,0 +1,21 @@
+.bo
+.imgsContainer
+{
+  
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+}
+.imgs img
+{
+    width: 25%;
+    margin-left: 5px;
+    background-color: black;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
+ 
+    
+}
