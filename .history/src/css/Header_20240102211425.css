@@ -1,0 +1,25 @@
+.myGal
+{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.delBtn
+{
+ 
+}
+
+.addBtn
+{
+
+  background-color: rgb(5, 88, 5);
+}
+
+.wholeHeader
+{
+  
+  display: flex;
+  flex-wrap: wrap;
+}

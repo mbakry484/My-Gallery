@@ -1,0 +1,27 @@
+.myGal
+{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+/* .delBtn
+{
+  margin-top: 50px;
+}
+
+.addBtn
+{
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: rgb(5, 88, 5);
+} */
+
+.addDelBtns
+{
+  display: block;
+
+  margin: auto;
+  text-align: center;
+}

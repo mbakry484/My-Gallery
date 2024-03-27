@@ -1,0 +1,19 @@
+.myGal
+{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.delBtn
+{
+  margin-top: 50px;
+  background-color: rgb(168, 10, 10);
+}
+
+.addBtn
+{
+
+  background-color: green;
+}
