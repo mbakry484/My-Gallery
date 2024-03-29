@@ -1,0 +1,79 @@
+body
+{
+    background-color: gray;
+}
+.sunImgsContainer
+{
+  
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 5px;
+}
+.sunImgs img
+{
+    width: 100%;
+    margin-left: 5px;
+    background-color: black;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
+ 
+    
+}
+
+  .sunImgs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #item {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .lightbox-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lightbox-img {
+    width: 70vw;
+    height: 70vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .lightbox-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #prev {
+    left: 10px;
+  }
+  
+  #next {
+    right: 10px;
+  }
+  
+  #close {
+    right: 20px;
+    top: 10px;
+  }
+  
