@@ -8,7 +8,7 @@ import Randoms from "./components/pages/Randoms";
 const App = () => {
   return (
     <div>
-        <BrowserRouter basename="/My-Gallery">
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home"    element={<Home    />} /> 
